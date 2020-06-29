@@ -45,7 +45,18 @@ section {
 
 }
 
+img {
+  display: inline-block;
+}
 
+hr {
+  margin-top: 7px;
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: #333; /* old IE */
+  background-color: #333; /* Modern Browsers */
+}
 
 /* Reusable Styles */
 .container {
@@ -112,6 +123,11 @@ section {
 
 .menu-open .hamburger-menu .fa-bars {
   display: none;
+}
+
+.icons {
+  margin: auto;
+  text-align: center; 
 }
 
 .nav-list {
@@ -223,7 +239,7 @@ nav-item:not(:last-child) {
 }
 .sub-heading {
   font-size: 1.7rem;
-  font-family: 'Courgette', cursive;
+  font-family: 'Helvetica', sans-serif;
   font-weight: 300;
   color: #a5a5a5;
 }
@@ -239,10 +255,24 @@ nav-item:not(:last-child) {
   justify-content: center;
 }
 
+.five-grid-item {
+  grid-gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .four-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   grid-gap: 1.5rem; /* */
+}
+
+.five-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 1rem; /* */
 }
 
 
@@ -332,6 +362,7 @@ nav-item:not(:last-child) {
 .fewBlogs-btn:hover {
   color: var(--yellow-solid);
 }
+
 
 #scienceName:hover {
   background-color: black;

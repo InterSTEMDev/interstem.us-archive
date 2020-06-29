@@ -1,0 +1,38 @@
+/*
+.blogBox {
+   text-align: center;
+  border-style: solid;
+  border-color: black;
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+}
+*/
+#articleContainer {
+  width: 100%;
+  max-width: 80rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+  background-color: #f7f2f9;
+  padding-left: 35px;
+  padding-right: 30px;
+  margin-top: -10px;
+}
+
+#anyImage,
+#whoImage,
+#swineFlu {
+  width: 100%;
+  height: 100%;
+}
+#dexamethasoneImg {
+  width: 100%;
+}
+#graphOne {
+  width: 80%;
+}
+
+a {
+  color: #3429b3;
+  text-decoration: underline;
+}
