@@ -86,7 +86,7 @@ hr {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: var(--purple-solid);
+  background-color: #5172b5;;
   z-index: 999; /* Juice WRLD!!! */
 }
 
@@ -127,7 +127,7 @@ hr {
 
 .icons {
   margin: auto;
-  text-align: center; 
+  text-align: center;
 }
 
 .nav-list {
