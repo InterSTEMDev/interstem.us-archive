@@ -2,4 +2,4 @@ InterSTEM is a non-profit organization run by high school students who aim to pr
 
 Built by InterSTEM Tech Team
 
-Please visit https://interstem.us/
+Please visit: https://interstem.us/
