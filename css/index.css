@@ -80,7 +80,7 @@ hr {
 /* Header style */
 .header {
   width: 100%;
-  height: 6rem;
+  height: 8rem;
   display: flex;
   align-items: center;
   position: fixed;
@@ -275,11 +275,47 @@ nav-item:not(:last-child) {
   grid-gap: 1rem; /* */
 }
 
+/*
+.holder {
+  overflow: hidden;
+  position: relative;
+  width: 2000px;
+  height: 50px;
+}
+.ellipse {
+  position: absolute;
+  background: radial-gradient(ellipse, transparent, transparent 7px, black 7px, black 10px, transparent 11px);
+  background-size: 36px 40px;
+  width: 2000px;
+  height: 20px;
+}
+.ellipse2 {
+  top: 20px;
+  left: 18px;
+  background-position: 0px -20px;
+}
+*/
 
 
 .missionStatementClass {
   background-color: #f7f2f9;
+  height: 520px;
+}
+.missionStatement {
+  font-size: 17px;
+  font-family: 'Nunito';
+}
+#sectionHeading {
+  font-size: 2rem;
+}
 
+#aboutUsImage {
+  float: left;
+	margin: 5px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 1px;
+  width: 40%;
 }
 
 .programs {
@@ -484,4 +520,20 @@ nav-item:not(:last-child) {
   .sub-title {
     font-size: 4.2rem;
   }
+  #aboutUsImage {
+    float: left;
+  	margin: 5px;
+  	margin-right: 20px;
+  	margin-top: 10px;
+  	margin-bottom: 1px;
+    width: 300px;
+  }
+  .missionStatement {
+    font-size: 22px;
+    font-family: 'Nunito';
+  }
+  #sectionHeading {
+    font-size: 3rem;
+  }
+
 }
