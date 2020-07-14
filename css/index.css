@@ -86,13 +86,16 @@ hr {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #5172b5;;
+  background-color: rgb(255, 255, 255, 0);
   z-index: 999; /* Juice WRLD!!! */
 }
 
 .header.active {
-  background-color: var(--purple-solid);
+  background-color: #261d1d;
+  /*background-color: #5172b5; */
 }
+
+
 
 /* Header styles - nav */
 .nav {
