@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "interstem.us",
+  "public": true,
+  "alias": [
+    "interstemus"
+  ],
+  "builds": [
+    { "src": "*.html", "use": "@now/static" }
+  ]
+}
