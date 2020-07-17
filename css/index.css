@@ -348,8 +348,14 @@ nav-item:not(:last-child) {
   height: 35rem;
   color: #fff;
   padding: 1rem;
+  border: 5px solid transparent;
   position: relative;
   z-index: 0;
+}
+
+
+.featured-programs:hover {
+  border: 5px solid rgba(15, 6, 99, 0.5);
 }
 
 .featured-programs::before {
@@ -362,7 +368,6 @@ nav-item:not(:last-child) {
   background-color: rgba(15, 6, 99, 0.5);
   z-index: -1;
 }
-
 
 .program-image {
   width: 100%;
