@@ -174,7 +174,7 @@ nav-item:not(:last-child) {
 /* Hero section styles*/
 .hero {
   width: 100%;
-  height: 100vh;
+  height: 79vh;
   background: url("../images/index/background.jpeg") center no-repeat;
   background-size: cover;
   display: flex;
@@ -196,6 +196,27 @@ nav-item:not(:last-child) {
   z-index: -1;
 }
 
+.home-shape-bottom img {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  z-index: 50;
+
+
+}
+.ml-auto, .mx-auto {
+  margin-left: auto !important;
+}
+.mr-auto, .mx-auto {
+  margin-right: auto !important;
+}
+.d-block {
+  display: block !important;
+}
+img-fluid {
+  max-width: 100%;
+}
+
 
 .main-heading {
   color: #fff;
@@ -206,7 +227,7 @@ nav-item:not(:last-child) {
 }
 
 .title {
-  font-size: 6.5rem;
+  font-size: 6.8rem;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -308,9 +329,9 @@ nav-item:not(:last-child) {
   height: 610px;
 }
 .missionStatementClassTwo {
-  background-color: #edf0fa;
+  background-color: #E3E4F3;
   padding-left: 40px;
-
+  height: 610px;
 }
 .missionStatement {
   font-size: 19px;
@@ -514,7 +535,7 @@ nav-item:not(:last-child) {
   line-height: 1.3rem;
 }
 
-s
+
 
 
 
@@ -625,7 +646,7 @@ s
     color: var(--yellow-solid);
   }
   .title {
-    font-size: 10rem;
+    font-size: 11rem;
   }
   .sub-title {
     font-size: 4.2rem;
@@ -633,6 +654,11 @@ s
   .missionStatementClass {
     background-color: #f7f2f9;
     height: 500px;
+  }
+  .missionStatementClassTwo {
+    background-color: #E3E4F3;
+    padding-left: 40px;
+    height: 640px;
   }
   #aboutUsImage {
     float: left;
@@ -658,5 +684,11 @@ s
   #sectionHeading {
     font-size: 3rem;
   }
+  .home-shape-bottom img {
+    width: 100%;
+    height: auto;
+    margin-top: -100px;
+    z-index: 50;
 
+  }
 }
