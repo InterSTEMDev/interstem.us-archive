@@ -1,0 +1,37 @@
+html, body {
+	overflow-x: hidden;
+}
+
+a:hover {
+  filter: brightness(75%);
+}
+
+.five-grid-item > i {
+	font-size: 6vw; 
+	color: rgba(15, 6, 99, 0.5); 
+	padding-bottom: 15px;
+}
+
+.five-grid-item {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+  background-color: #ffffff;
+}
+
+.five-grid-item:hover {
+  background-color: #f2eded;
+  box-shadow: 0 12px 12px 0 rgba(0,0,0,0.2)
+}
+
+.fewBlogs {
+	background-color: #f7f2f9;
+}
+
+.description {
+	position: relative;
+	margin: 2rem -9999rem;
+	background-color: var(--purple-transparent);
+	padding: 1.5rem 9999rem;
+	font-size: 2.2rem;
+  color: #ed9fad;
+  font-weight: 600;
+}
