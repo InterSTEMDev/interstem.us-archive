@@ -223,6 +223,18 @@ body {
   z-index: -1;
   transition: transform 5s;
 }
+.background-image-genderGap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../images/blogs/genderGap.jpg') center no-repeat;
+  background-position: 100 0px;
+  background-size: cover;
+  z-index: -1;
+  transition: transform 5s;
+}
 
 .card:hover .background-image {
   transform: scale(1.5);
