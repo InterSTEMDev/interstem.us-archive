@@ -5,16 +5,20 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content='maximum-scale=1.0, initial-scale=1.0, width=device-width' name='viewport'>
     <title>interSTEM</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <!--Font awesome CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="icon" type="image/png" href="images/index/logo.png"/>
-
-
   </head>
   <body>
+    <a id="top"></a>
+    <a href="#top"><button class="btn-top" type="button" name="button"><i class="fa fa-angle-up" aria-hidden="true"></i></button></a>
+    <!-- Navbar -->
     <header class="header" style="background-color: #5172b5;">
       <div class="container">
           <nav class="nav">
@@ -46,196 +50,302 @@
           </nav>
        </div>
      </header>
-     <main>
-       <br><br><br>
-
-       <div class="container" id="boardContainer">
-         <h5 class="section-head">
-           <br><br>
-           <span class="heading" style="font-size: 70px; text-transform: none; font-weight: lighter;; ">Executive Board</span>
-           <!-- <span class="sub-heading">Lorem Ipsum</span> -->
-           <br>
-         </h5>
-         <br>
-          <div class="board-grid">
-            <div class="grid-item">
-              <img class="board-image" id="ryanliu" src="images/about/ryanliu.JPG" alt="">
-              <div class="fewBlogs-info-wrap">
-                <span class="board-description">
-                  <br>
-                <span class="board-title"><b>Ryan Liu</b></span> <i>Chief Executive Officer</i>
-                  <br><span class="boardMargin">Ryan is a rising junior at Northwood High School.
-                  Through InterSTEM, he hopes to spread his passion for STEM to less fortunate
-                  communities and create a platform where similarly-minded students can interact
-                  across the world. Ryan is most interested in mathematics and physics, and serves
-                  on the board of many school science clubs. Outside of STEM, he enjoys playing the
-                  piano, debating politics, and reading philosophy.</span>
-                  <br>
-                </span>
+   <!-- About Us Header with Buttons -->
+   <br><br><br><br>
+   <div class="container">
+     <div class="row justify-content-center">
+       <div class="col p-3">
+          <h1 class="topHeader">About Us</h1>
+          <br>
+       </div>
+     </div>
+     <div class="row justify-content-center">
+       <div class="col d-flex justify-content-center btn-holder">
+          <a href="#logistics"><button class="navBtn navBtn-1" type="button" name="button">Logistics</button></a>
+          <a href="#marketing"><button class="navBtn navBtn-2" type="button" name="button">Marketing</button></a>
+          <a href="#technology"><button class="navBtn navBtn-3" type="button" name="button">Technology</button></a>
+          <a href="#writing"><button class="navBtn navBtn-4" type="button" name="button">Writing</button></a>
+       </div>
+     </div>
+   </div>
+   <!-- Gallery -->
+   <div id="gallery-container" class="container-fluid">
+     <div class="row">
+         <div class="gallery">
+           <div class="gallery-slot" id = "gallery-slot-1">
+              <a href="#ryanliu"><img class="gallery-img" src="images/about/ryanliu.JPG" alt=""></a>
+              <p class="gallery-text" id="gallery-text-1">Ryan Liu <span class="gallery-text-caption">Chief Executive Officer</span></p>
+           </div>
+           <div class="gallery-slot" id = "gallery-slot-2">
+              <a href="#minseokim"><img class="gallery-img" src="images/about/minseokim.jpg" alt=""></a>
+              <p class="gallery-text" id="gallery-text-2">Minseo Kim<span class="gallery-text-caption">Chief Operating Officer</span></p>
+           </div>
+           <div class="gallery-slot" id = "gallery-slot-3">
+              <a href="#aldenzeng"><img class="gallery-img" src="images/about/yongkuanzhang.JPG" alt=""></a>
+              <p class="gallery-text" id="gallery-text-3">Yongkuan Z.<span class="gallery-text-caption">Co-Chief Development Officer</span></p>
+           </div>
+           <div class="gallery-slot" id = "gallery-slot-4">
+              <a href="#aaronyan"><img class="gallery-img" src="images/about/aaronyan.JPG" alt=""></a>
+              <p class="gallery-text" id="gallery-text-4">Aaron Yan <span class="gallery-text-caption">Co-Chief Executive Officer</span></p>
+           </div>
+           <div class="gallery-slot" id = "gallery-slot-5">
+              <a href="#aldenzeng"><img class="gallery-img" src="images/about/aldenzeng.jpg" alt=""></a>
+              <p class="gallery-text" id="gallery-text-5">Alden Zeng<span class="gallery-text-caption">Chief Financial Officer</span></p>
+           </div>
+           <div class="gallery-slot" id = "gallery-slot-7">
+            <a href="#cocoli">  <img class="gallery-img" src="images/about/cocoli.jpg" alt=""></a>
+              <p class="gallery-text" id="gallery-text-7">Coco Li<span class="gallery-text-caption">Co-Chief Marketing Officer</span></p>
+           </div>
+           <div class="gallery-slot" id = "gallery-slot-8">
+              <a href="#lizzieduong"><img class="gallery-img" src="images/about/lizzieduong.jpg" alt=""></a>
+              <p class="gallery-text" id="gallery-text-8">Lizzie Duong <span class="gallery-text-caption">Co-Chief Marketing Officer</span></p>
+           </div>
+           <div class="gallery-slot" id = "gallery-slot-6">
+              <a href="#bianlee"><img class="gallery-img" src="images/about/bianlee.jpg" alt=""></a>
+              <p class="gallery-text" id="gallery-text-6">Bian Lee<span class="gallery-text-caption">Chief Technology Officer</span></p>
+           </div>
+           <div class="gallery-slot" id = "gallery-slot-9">
+              <a href="#ashleylee"><img class="gallery-img" src="images/about/ashleylee.jpg" alt=""></a>
+              <p class="gallery-text" id="gallery-text-9">Ashley Lee<span class="gallery-text-caption">Editor in Chief</span></p>
+           </div>
+           <div class="gallery-slot" id = "gallery-slot-10">
+              <a href="#annabeltiong"><img class="gallery-img" src="images/about/annabeltiong.jpg" alt=""></a>
+              <p class="gallery-text" id="gallery-text-10">Annabel T.<span class="gallery-text-caption">Managing Editor</span></p>
+           </div>
+           <div class="gallery-slot" id = "gallery-slot-11">
+              <a href="#chrissong"><img class="gallery-img" src="images/about/chrissong.jpg" alt=""></a>
+              <p class="gallery-text" id="gallery-text-11">Chris Song<span class="gallery-text-caption">Chief Human Resources Officer</span></p>
+           </div>
+         </div>
+     </div>
+   </div>
+   <!-- Logistics -->
+   <div class="container">
+     <div class="row justify-content-center">
+       <h1 class ="group-header" id="logistics"><i class="fa fa-globe" aria-hidden="true"></i> Logistics</h1>
+       <p class="group-blurb"></p>
+     </div>
+     <div class="row justify-content-center" id="ryanliu">
+       <div class="col-lg-10 col-md-11 col-sm-11 m-3">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">
+              <img class="img-fluid img-bio" src="images/about/ryanliu.JPG" alt="">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 d-flex justify-content-center">
+              <div class="row">
+                <div class="col-12 align-self-end">
+                  <h3 class="bio-header bio-header-logistics">Chief Executive Officer, Ryan Liu   | <i class="fa fa-instagram icon-social" aria-hidden="true"></i> <i class="fa fa-linkedin-square icon-social" aria-hidden="true"></i></h3>
+                </div>
+                <div class="col-12">
+                  <p>Ryan is a rising junior at Northwood High School. Through InterSTEM, he hopes to spread his passion for STEM to less fortunate communities and create a platform where similarly-minded students can interact across the world. Ryan is most interested in mathematics and physics, and serves on the board of many school science clubs. Outside of STEM, he enjoys playing the piano, debating politics, and reading philosophy.</p>
+                </div>
               </div>
             </div>
-
-            <div class="grid-item">
-              <img class="board-image" id="minseokim" src="images/about/minseokim.jpg" alt="">
-              <span class="board-description">
-                <br>
-                <span class="board-title"><b>Minseo Kim</b></span> <i>Chief Operating Officer</i>
-                <br>Minseo (Min) is a rising junior at Beckman High School. Through InterSTEM, he aims
-                 to cultivate an interest in STEM among youths of varying backgrounds. He is the president
-                 of Orange County Coder and works to share his love of computer science and programming to
-                the community. He also enjoys participating in different academic competitions in math
-                and computer science. Outside of STEM, he is passionate about performing magic tricks
-                and playing guitar.
-              </span>
-            </div>
           </div>
-
-          <br><br>
-          <div class="board-grid">
-            <div class="grid-item">
-              <img class="board-image" id="yongkuanzhang" src="images/about/yongkuanzhang.JPG" alt="">
-              <div class="fewBlogs-info-wrap">
-                <span class="board-description">
-                  <br>
-                  <span class="board-title"><b>Yongkuan Zhang</b></span> <i>Co-Chief Development Officer</i>
-                  <br>Yongkuan is a rising senior at Northwood High School. He is passionate in fields
-                  such as biology and chemistry. Through InterSTEM, Yonguan aims to help students who have
-                  nascent interests in STEM progress further towards their personal goals through building
-                  an online consulting network that responds to both logistical and technical questions students
-                 may have. He likes listening to both classical music and light jazz, and he loves cats very much.
-                 <br>
-                </span>
+       </div>
+       <div class="col-lg-10 col-md-11 col-sm-11 m-3" id="minseokim">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">
+              <img class="img-fluid img-bio" src="images/about/minseokim.JPG" alt="">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 d-flex justify-content-center">
+              <div class="row">
+                <div class="col-12 col align-self-end">
+                  <h3 class="bio-header bio-header-logistics">Chief Operating Officer, Minseo Kim   | <i class="fa fa-instagram icon-social" aria-hidden="true"></i> <i class="fa fa-linkedin-square icon-social" aria-hidden="true"></i></h3>
+                </div>
+                <div class="col-12">
+                  <p>Minseo (Min) is a rising junior at Beckman High School. Through InterSTEM, he aims to cultivate an interest in STEM among youths of varying backgrounds. He is the president of Orange County Coder and works to share his love of computer science and programming to the community. He also enjoys participating in different academic competitions in math and computer science. Outside of STEM, he is passionate about performing magic tricks and playing guitar.</p>
+                </div>
               </div>
             </div>
-            <div class="grid-item">
-              <img class="board-image" id="aaronyan" src="images/about/aaronyan.JPG" alt="">
-              <span class="board-description">
-                <br>
-                <span class="board-title"><b>Aaron Yan</b></span> <i>Co-Chief Development Officer</i>
-                <br>Aaron is a junior attending Northwood High School dedicated to learning and teaching biochemistry.
-                His passion towards these feelings has led him to take part in InterSTEM in the development of a
-                tutoring program for the sciences. Aaron plays volleyball and the violin. He also very much likes
-                listening to Christian music and early 2010’s pop songs and watching movies.
-                <br><br><br>
-              </span>
-            </div>
           </div>
-          <br><br>
-
-          <div class="board-grid">
-            <div class="grid-item">
-              <img class="board-image" id="aldenzeng" src="images/about/aldenzeng.jpg" alt="">
-              <div class="fewBlogs-info-wrap">
-                <span class="board-description">
-                  <br>
-                  <span class="board-title"><b>Alden Zeng</b></span> <i>Chief Financial Officer</i>
-                  <br>Alden is an incoming junior at Northwood High School who enjoys studying chemistry
-                   and its application to advancing technology. Through InterSTEM, Alden hopes to broaden
-                    his horizon on the practices of STEM and provide a platform for the younger generation
-                     to contribute their voices to a rapidly evolving community. Outside of his interests in
-                      STEM, he is also a consistent runner and a saxophone player.
-                 <br>
-                </span>
+       </div>
+       <div class="col-lg-10 col-md-11 col-sm-11 m-3" id="yongkuanzhang">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">
+              <img class="img-fluid img-bio" src="images/about/yongkuanzhang.JPG" alt="">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 d-flex justify-content-center">
+              <div class="row">
+                <div class="col-12 col align-self-end">
+                  <h3 class="bio-header bio-header-logistics">Co-Chief Development Officer, Yongkuan Zhang | <i class="fa fa-instagram icon-social" aria-hidden="true"></i> <i class="fa fa-linkedin-square icon-social" aria-hidden="true"></i></h3>
+                </div>
+                <div class="col-12">
+                  <p>Yongkuan is a rising senior at Northwood High School. He is passionate in fields such as biology and chemistry. Through InterSTEM, Yonguan aims to help students who have nascent interests in STEM progress further towards their personal goals through building an online consulting network that responds to both logistical and technical questions students may have. He likes listening to both classical music and light jazz, and he loves cats very much.</p>
+                </div>
               </div>
             </div>
-            <div class="grid-item">
-              <img class="board-image" id="bianlee" src="images/about/bianlee.jpg" alt="">
-              <span class="board-description">
-                <br>
-                <span class="board-title"><b>Bian Lee</b></span> <i>Chief Technology Officer</i>
-                <br>Bian is a rising junior at Northwood High School. He is most passionate about computer
-                 engineering and cryptography. Through InterSTEM, Bian aims to spark greater interest for
-                 the vast field of STEM and build an international community that will contribute to the rapidly
-                  progressing technology industry. He spends most of his time programming, solving cicada puzzles,
-                   as well as listening to and producing music.
-              </span>
-            </div>
           </div>
-
-          <br><br>
-          <div class="board-grid">
-            <div class="grid-item">
-              <img class="board-image" id="cocoli" src="images/about/cocoli.jpg" alt="">
-              <div class="fewBlogs-info-wrap">
-                <span class="board-description">
-                  <br>
-                  <span class="board-title"><b>Coco Li</b></span> <i>Co-Chief Marketing Officer</i>
-                  <br>Coco is a rising junior at Beckman High School who is passionate in fields such as biology and
-                  chemistry. Through InterSTEM, she strives to promote a greater interest and provide a platform to
-                  help students’ deepen their understanding in STEM. She’s also involved in the Science Olympiad and
-                  hopes to grow her passion in other science areas. Outside of STEM, she loves watercolor and digital art.
-                 <br>
-                </span>
+       </div>
+       <<div class="col-lg-10 col-md-11 col-sm-11 m-3" id="aaronyan">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">
+              <img class="img-fluid img-bio" src="images/about/aaronyan.JPG" alt="">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 d-flex justify-content-center">
+              <div class="row">
+                <div class="col-12 col align-self-end">
+                  <h3 class="bio-header bio-header-logistics">Co-Chief Development Officer, Aaron Yan | <i class="fa fa-instagram icon-social" aria-hidden="true"></i> <i class="fa fa-linkedin-square icon-social" aria-hidden="true"></i></h3>
+                </div>
+                <div class="col-12">
+                  <p>Aaron is a junior attending Northwood High School dedicated to learning and teaching biochemistry. His passion towards these feelings has led him to take part in InterSTEM in the development of a tutoring program for the sciences. Aaron plays volleyball and the violin. He also very much likes listening to Christian music and early 2010’s pop songs and watching movies.</p>
+                </div>
               </div>
             </div>
-            <div class="grid-item">
-              <img class="board-image" id="lizzieduong" src="images/about/lizzieduong.jpg" alt="">
-              <span class="board-description">
-                <br>
-                <span class="board-title"><b>Lizzie Duong</b></span> <i>Co-Chief Marketing Officer</i>
-                <br>Lizzie Duong is a junior at Northwood High School who embodies school spirit and community involvement.
-                 She is a part of Northwood ASB as technology officer and has directed several segments for Northwood
-                 Television’s award-winning broadcast. She is additionally a student-athlete juggling a rigorous academic
-                  course while playing school and club volleyball. Through InterSTEM, Lizzie hopes to share her love for
-                  STEM throughout the world.
-              </span>
-            </div>
           </div>
-          <br><br>
-          <div class="board-grid">
-            <div class="grid-item">
-              <img class="board-image" id="cocoli" src="images/about/ashleylee.jpg" alt="">
-              <div class="fewBlogs-info-wrap">
-                <span class="board-description">
-                  <br>
-                  <span class="board-title"><b>Ashley Lee</b></span> <i>Editor in Chief</i>
-                  <br>Ashley is a rising junior at Northwood High School who enjoys writing news articles and features.
-                   Through InterSTEM, Ashley hopes to provide students a platform where they can find their interests and
-                   understand the relevance of STEM-related topics to the changing world. Additionally, she enjoys reading
-                    classic literature, watching films, and going to the beach during sunsets.
-                 <br>
-                </span>
+       </div>
+       <div class="col-lg-10 col-md-11 col-sm-11 m-3" id="aldenzeng">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">
+              <img class="img-fluid img-bio" src="images/about/aldenzeng.JPG" alt="">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 d-flex justify-content-center">
+              <div class="row">
+                <div class="col-12 col align-self-end">
+                  <h3 class="bio-header bio-header-logistics">Chief Financial Officer, Alden Zeng| <i class="fa fa-instagram icon-social" aria-hidden="true"></i> <i class="fa fa-linkedin-square icon-social" aria-hidden="true"></i></h3>
+                </div>
+                <div class="col-12">
+                  <p>Alden is an incoming junior at Northwood High School who enjoys studying chemistry and its application to advancing technology. Through InterSTEM, Alden hopes to broaden his horizon on the practices of STEM and provide a platform for the younger generation to contribute their voices to a rapidly evolving community. Outside of his interests in STEM, he is also a consistent runner and a saxophone player.</p>
+                </div>
               </div>
             </div>
-            <div class="grid-item">
-              <img class="board-image" id="lizzieduong" src="images/about/annabeltiong.jpg" alt="">
-              <span class="board-description">
-                <br>
-                <span class="board-title"><b>Annabel Tiong</b></span> <i>Managing Editor</i>
-                <br>Annabel is a rising sophomore at Northwood High School eager to find opportunities to immerse herself
-                 in the community and further explore fields of interest such as biology or environmental science. By
-                 serving on the board of InterSTEM, she hopes to spread her passion for writing and politics by inspiring
-                  other students with similar passions. In her free time, she likes to admire correct usage of Oxford commas,
-                   Studio Ghibli films, and birds.
-              </span>
-            </div>
           </div>
-          <br><br>
-          <div class="board-grid">
-            <div class="grid-item">
-              <img class="board-image" id="cocoli" src="images/about/chrissong.jpg" alt="">
-              <div class="fewBlogs-info-wrap">
-                <span class="board-description">
-                  <br>
-                  <span class="board-title"><b>Chris Song</b></span> <i>Chief Human Resources Officer</i>
-                  <br>Chris is a rising sophomore at Northwood High School. He is most passionate in the fields of math and physics
-                   and is involved in multiple clubs at his school. Through InterSTEM, he hopes to utilize what he has learned and
-                    help others progress to personal goals through tutoring. Outside of STEM, he likes listening to classical music
-                     while reading academic journal articles.
-                 <br>
-                </span>
+       </div>
+       <div class="col-lg-10 col-md-11 col-sm-11 m-3" id="chrissong">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">
+              <img class="img-fluid img-bio" src="images/about/chrissong.JPG" alt="">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 d-flex justify-content-center">
+              <div class="row">
+                <div class="col-12 col align-self-end">
+                  <h3 class="bio-header bio-header-logistics">Chief Human Resources Officer, Chris Song | <i class="fa fa-instagram icon-social" aria-hidden="true"></i> <i class="fa fa-linkedin-square icon-social" aria-hidden="true"></i></h3>
+                </div>
+                <div class="col-12">
+                  <p>Chris is a rising sophomore at Northwood High School. He is most passionate in the fields of math and physics and is involved in multiple clubs at his school. Through InterSTEM, he hopes to utilize what he has learned and help others progress to personal goals through tutoring. Outside of STEM, he likes listening to classical music while reading academic journal articles.</p>
+                </div>
               </div>
             </div>
-            <div class="grid-item">
-
-
-
+          </div>
+       </div>
+   </div>
+   <!-- Marketing -->
+   <div class="container">
+     <div class="row justify-content-center">
+       <h1 class ="group-header" id="marketing"><i class="fa fa-line-chart" aria-hidden="true"></i> Marketing</h1>
+       <p class="group-blurb"></p>
+     </div>
+     <div class="row justify-content-center">
+       <div class="col-lg-10 col-md-11 col-sm-11 m-3" id="cocoli">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">
+              <img class="img-fluid img-bio" src="images/about/cocoli.JPG" alt="">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 d-flex justify-content-center">
+              <div class="row">
+                <div class="col-12 align-self-end">
+                  <h3 class="bio-header bio-header-marketing">Co-Chief Marketing Officer, Coco Li   | <i class="fa fa-instagram icon-social" aria-hidden="true"></i> <i class="fa fa-linkedin-square icon-social" aria-hidden="true"></i></h3>
+                </div>
+                <div class="col-12">
+                  <p>Coco is a rising junior at Beckman High School who is passionate in fields such as biology and chemistry. Through InterSTEM, she strives to promote a greater interest and provide a platform to help students’ deepen their understanding in STEM. She’s also involved in the Science Olympiad and hopes to grow her passion in other science areas. Outside of STEM, she loves watercolor and digital art.</p>
+                </div>
+              </div>
             </div>
           </div>
-          <br><br>
-        </div>
-     </main>
-
+       </div>
+       <div class="col-lg-10 col-md-11 col-sm-11 m-3" id="lizzieduong">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">
+              <img class="img-fluid img-bio" src="images/about/lizzieduong.JPG" alt="">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 d-flex justify-content-center">
+              <div class="row">
+                <div class="col-12 col align-self-end">
+                  <h3 class="bio-header bio-header-marketing">Co-Chief Marketing Officer, Lizzie Duong   | <i class="fa fa-instagram icon-social" aria-hidden="true"></i> <i class="fa fa-linkedin-square icon-social" aria-hidden="true"></i></h3>
+                </div>
+                <div class="col-12">
+                  <p>Lizzie Duong is a junior at Northwood High School who embodies school spirit and community involvement. She is a part of Northwood ASB as technology officer and has directed several segments for Northwood Television’s award-winning broadcast. She is additionally a student-athlete juggling a rigorous academic course while playing school and club volleyball. Through InterSTEM, Lizzie hopes to share her love for STEM throughout the world.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+   </div>
+   <!-- Technology -->
+   <div class="container">
+     <div class="row justify-content-center">
+       <h1 class ="group-header" id="technology"><i class="fa fa-file-code-o" aria-hidden="true"></i> Technology</h1>
+       <p class="group-blurb"></p>
+     </div>
+     <div class="row justify-content-center">
+       <div class="col-lg-10 col-md-11 col-sm-11 m-3" id="bianlee">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">
+              <img class="img-fluid img-bio" src="images/about/bianlee.JPG" alt="">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 d-flex justify-content-center">
+              <div class="row">
+                <div class="col-12 align-self-end">
+                  <h3 class="bio-header bio-header-technology">Chief Technology Officer, Bian Lee   | <i class="fa fa-instagram icon-social" aria-hidden="true"></i> <i class="fa fa-linkedin-square icon-social" aria-hidden="true"></i></h3>
+                </div>
+                <div class="col-12">
+                  <p>Bian is a rising junior at Northwood High School. He is most passionate about computer engineering and cryptography. Through InterSTEM, Bian aims to spark greater interest for the vast field of STEM and build an international community that will contribute to the rapidly progressing technology industry. He spends most of his time programming, solving cicada puzzles, as well as listening to and producing music.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+   </div>
+   <!-- Writing -->
+   <div class="container">
+     <div class="row justify-content-center">
+       <h1 class ="group-header" id="writing"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Writing</h1>
+       <p class="group-blurb"></p>
+     </div>
+     <div class="row justify-content-center">
+       <div class="col-lg-10 col-md-11 col-sm-11 m-3" id="ashleylee">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">
+              <img class="img-fluid img-bio" src="images/about/ashleylee.JPG" alt="">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 d-flex justify-content-center">
+              <div class="row">
+                <div class="col-12 align-self-end">
+                  <h3 class="bio-header bio-header-writing">Editor in Chief, Ashley Lee  | <i class="fa fa-instagram icon-social" aria-hidden="true"></i> <i class="fa fa-linkedin-square icon-social" aria-hidden="true"></i></h3>
+                </div>
+                <div class="col-12">
+                  <p>Ashley is a rising junior at Northwood High School who enjoys writing news articles and features. Through InterSTEM, Ashley hopes to provide students a platform where they can find their interests and understand the relevance of STEM-related topics to the changing world. Additionally, she enjoys reading classic literature, watching films, and going to the beach during sunsets.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+       <div class="col-lg-10 col-md-11 col-sm-11 m-3" id="annabeltiong">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center">
+              <img class="img-fluid img-bio" src="images/about/annabeltiong.JPG" alt="">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 d-flex justify-content-center">
+              <div class="row">
+                <div class="col-12 col align-self-end">
+                  <h3 class="bio-header bio-header-writing">Managing Editor, Annabel Tiong | <i class="fa fa-instagram icon-social" aria-hidden="true"></i> <i class="fa fa-linkedin-square icon-social" aria-hidden="true"></i></h3>
+                </div>
+                <div class="col-12">
+                  <p>Annabel is a rising sophomore at Northwood High School eager to find opportunities to immerse herself in the community and further explore fields of interest such as biology or environmental science. By serving on the board of InterSTEM, she hopes to spread her passion for writing and politics by inspiring other students with similar passions. In her free time, she likes to admire correct usage of Oxford commas, Studio Ghibli films, and birds.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+   </div>
+  <br><br>
   </body>
+  <!-- Scripts -->
+  <script src="https://use.fontawesome.com/7f897f08cb.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/about.js" charset="utf-8"></script>
   <script src="js/main.js"></script>
 </html>
