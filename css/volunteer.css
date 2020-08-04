@@ -1,0 +1,84 @@
+html, body {
+	overflow-x: hidden;
+}
+
+.fewBlogs {
+	background-color: #f7f2f9;
+}
+
+.description {
+	position: relative;
+	margin: 2rem -9999rem;
+	background-color: var(--purple-transparent);
+	padding: 1.5rem 9999rem;
+	font-size: 2.2rem;
+  color: #ed9fad;
+  font-weight: 600;
+}
+
+.tabContainer {
+	margin: 5% auto;
+	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+}
+
+.tabLink {
+  font-family: "Open Sans", sans-serif;
+  word-wrap: break-word;
+  background-color: #d3d3d3;
+  color: var(--purple-solid);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 2rem;
+  font-weight: 600;
+  width: 25%;
+}
+
+.tabLink:hover {
+  filter: brightness(97%);
+}
+
+.tabLink > p {
+	text-decoration: underline;
+}
+
+.tabLink > i {
+	display: none;
+	font-size: 6vw; 
+	color: var(--purple-solid);
+	padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+	.tabLink > p {
+		display: none;
+	}
+
+	.tabLink > i {
+		text-decoration: none;
+		display: block;
+	}
+}
+
+#tutor-form {
+	background-color: rgb(189, 212, 251);
+}
+
+#writer-form {
+	background-color: rgb(253, 240, 219);
+}
+
+#tech-form {
+	background-color: rgb(240, 235, 248);
+}
+
+#design-and-marketing-form {
+	background-color: rgb(243, 250, 247);
+}
+
+.tabContent {
+  margin: 0 auto;
+  display: none;
+}
