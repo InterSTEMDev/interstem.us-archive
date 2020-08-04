@@ -19,7 +19,7 @@ a:hover {
 
 .five-grid-item:hover {
   background-color: #f2eded;
-  box-shadow: 0 12px 12px 0 rgba(0,0,0,0.2)
+  box-shadow: 0 12px 12px 0 rgba(0,0,0,0.2);
 }
 
 .fewBlogs {
