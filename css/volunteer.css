@@ -17,7 +17,8 @@ html, body {
 }
 
 .tabContainer {
-	margin: 5% auto;
+	margin: 5% auto 0;
+	height: 100%;
 	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
 }
 
@@ -48,7 +49,7 @@ html, body {
 	display: none;
 	font-size: 6vw; 
 	color: var(--purple-solid);
-	padding-bottom: 15px;
+	padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -59,6 +60,9 @@ html, body {
 	.tabLink > i {
 		text-decoration: none;
 		display: block;
+	}
+	.tabLink {
+		height: 4rem;
 	}
 }
 
