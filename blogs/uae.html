@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/article.css">
     <link rel="icon" type="image/png" href="images/index/logo.png"/>
+        <!--AOS library CDN-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <br><br>
@@ -54,7 +56,7 @@
        </h5>
        <br>
        <div class="img" style="text-align: center;">
-         <img src="../images/blogs/uaeOne.png" alt="" id="anyImage">
+         <img data-aos="fade-left" src="../images/blogs/uaeOne.png" alt="" id="anyImage">
       <br><span style="font-size: 13px;"><i>The UAE mission crew assembles the Hope probe and prepares it for the stresses of space flight. The orbiter will measure the Martian atmosphere and climate for a full Martian year, or sol.<br>
       <a href="https://www.dw.com/en/the-facts-on-hope-the-uaes-mars-mission-al-amal/a-54067401" target="_blank">Emirates Mars Mission/MBRSC</a></i></span>
        </div>
@@ -82,4 +84,9 @@
   </main>
 </body>
 <script src="../js/main.js"></script>
+<!--AOS library scripts-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>

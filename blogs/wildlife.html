@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/article.css">
     <link rel="icon" type="image/png" href="images/index/logo.png"/>
+        <!--AOS library CDN-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <br><br>
@@ -54,7 +56,7 @@
        </h5>
        <br>
        <div class="img" style="text-align: center;">
-         <img src="../images/blogs/wildlifeOne.png" alt="" id="" width=500px>
+         <img data-aos="fade-left"  src="../images/blogs/wildlifeOne.png" alt="" id="" width=500px>
            <br><span style="font-size: 13px;"><i>An endangered civet cat is seen in Kerala, India.
              <a href="https://www.onmanorama.com/districts/kozhikode/2020/03/27/small-indian-civet-crosses-kozhikode-video.html" target="_blank">(Malayala Manorama)</i></span></a>
        </div>
@@ -83,11 +85,13 @@
       <br><br>Cover Photo:
       <a href="https://www.dailymail.co.uk/news/article-3593142/It-s-grrrrr-idlock-Lions-cubs-set-cutest-roadblock-South-Africa.html" target="_blank"> Greatstock/Barcroft Images</a>
       <br><br>
-
-
-
-
   </main>
 </body>
 <script src="../js/main.js"></script>
+
+<!--AOS library scripts-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>

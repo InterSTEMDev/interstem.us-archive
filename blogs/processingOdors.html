@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/article.css">
     <link rel="icon" type="image/png" href="images/index/logo.png"/>
+     <!--AOS library CDN-->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <br><br>
@@ -57,7 +59,7 @@
        <br><br>Thanks to scientists Richard Axel and Linda Buck, we know how every one of us can identify different scents.  In 1991, they published a fundamental paper that elaborated on the large family of around one thousand genes for odorant receptors. With that said, go ahead and take a deep breath. Yeah, don’t worry, I smell bad too. But how do we know we smell bad, and what triggers that? When we breathe, odor molecules enter our nostrils along with air. Each molecule can bind to a specific olfactory receptor, located on a neuron. Meanwhile, each neuron sits on the roof of your nasal cavity, known as the olfactory epithelium. These molecules, when bound to an olfactory receptor, will trigger a cellular response where reception at the membrane will result in a cascade of activated proteins (known as amplification). This will either cause a change in the DNA, construction of new proteins or lead to a transfer in the signal. In this case, the response will further notify the brain of the distinct aroma by sending the signal to the olfactory bulb (a neural structure) to interpret the smell.
        <br><br>
        <div class="img" style="text-align: center;">
-         <img src="../images/blogs/receptors.jpg" alt="" id="">
+         <img  data-aos="fade-left" src="../images/blogs/receptors.jpg" alt="" id="">
           <br><span style="font-size: 13px;"><i>(Easy Science for Kids)</i></span>
        </div>
        <br>While all of that information was previously known, unknown information has been recently discovered in a study conducted by neurobiologists at Harvard Medical School (HMS), which provided new insight on how smells are classified within the brain. As stated by
@@ -69,12 +71,12 @@
        <br><br>So, next time you catch the aroma of something particularly striking: good or bad, you can thank the millions of receptors in your nose and the prized olfactory cortex.
        <br><br>Cover Photo: Discover Magazine
        <br><br>
-
-
-
-
-
   </main>
 </body>
 <script src="../js/main.js"></script>
+<!--AOS library scripts-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>

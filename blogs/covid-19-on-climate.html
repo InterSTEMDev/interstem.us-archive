@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="../css/article.css">
     <link rel="icon" type="image/png" href="images/index/logo.png"/>
       <link rel="icon" type="image/png" href="images/index/logo.png">
+          <!--AOS library CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <br><br>
@@ -55,7 +57,7 @@
        </h5>
        <br>
        <div class="img" style="text-align: center;">
-         <img src="../images/blogs/covid19Pic.jpg" alt="" id="anyImage">
+         <img  data-aos="fade-left" src="../images/blogs/covid19Pic.jpg" alt="" id="anyImage">
          <br><span style="font-size: 13px;"><i>India is able to see the clear sky during COVID-19 lockdown. (BBC/Getty Images)</i></span>
        </div>
 
@@ -116,4 +118,9 @@
    </main>
    </body>
    <script src="../js/main.js"></script>
+   <!--AOS library scripts-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
    </html>

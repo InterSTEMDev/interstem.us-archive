@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/article.css">
     <link rel="icon" type="image/png" href="images/index/logo.png"/>
+        <!--AOS library CDN-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <br><br>
@@ -54,7 +56,7 @@
        </h5>
        <br>
        <div class="img" style="text-align: center;">
-         <img src="../images/blogs/zathura.png" alt="" id="anyImage">
+         <img data-aos="fade-left"  src="../images/blogs/zathura.png" alt="" id="anyImage">
       <br><span style="font-size: 13px;"><i>This is one of the many illustrations within Chris Van Allsburg’s book. His art pieces, both in Zathura and not, contain the same black and white aesthetic.</i></span>
        </div>
        <br>Everybody has different preferences when it comes to book genres. Some individuals prefer death-defying characters pursuing journeys in fictional atmospheres, while others enjoy historical nonfiction realities that were experienced in the past. Although these preferences exist, certain topics will always reach a consensus of interest among a wide audience. One of these topics is space exploration: a growing journey into the unknown facilitated by jaw-dropping technology and eager individuals. A great way to learn more about the astronomical advancements is to consult a piece of text usually presented in a nonfiction form. However, fictional content can be just as, if not more, alluring to a great audience, since the author can twist reality’s depth to render real life into something greater.
@@ -67,9 +69,12 @@
        <br><br>Though space’s fundamentals have proven extremely effective in continuing research and realistic prospects towards the universe, there is never a need to be too serious. The crazy abstractions and wild wonderlands made in one’s mind can produce stories far more interesting than the facts in most cases, and Allsburg proves this point perfectly through Zathura’s legacy.
        <br><br>Cover Photo: (Books of Wonder)
        <br><br>
-
-
   </main>
 </body>
 <script src="../js/main.js"></script>
+<!--AOS library scripts-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>

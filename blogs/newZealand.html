@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/article.css">
     <link rel="icon" type="image/png" href="images/index/logo.png"/>
+    <!--AOS library CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <br><br>
@@ -52,7 +54,7 @@
          <span class="heading" style="font-size: 4.2rem; text-transform: none;">COVID-19 Pandemic: Lessons to Learn from New Zealand</span>
          <span class="sub-heading">Patrick Nguyen. 7/30/2020</span>
        </h5>
-       <div class="img" style="text-align: center;">
+       <div data-aos="fade-left" class="img" style="text-align: center;">
          <img src="../images/blogs/newZealandOne.jpg" alt="" id="anyImage">
       <br><span style="font-size: 13px;"><i>Prime Minister Jacinda announces New Zealand’s transition to Level 1.
       <br><a href="https://www.forbes.com/sites/alexandrasternlicht/2020/06/08/how-new-zealand-eliminated-coronavirus/#57e5d2871bbd" target="_blank";>(Hagen Hopkins/Getty Images)</a></i></span>
@@ -70,16 +72,19 @@ Not only was there a response from large organizations, but even local businesse
         even surpassing the testing rates of both South Korea and the U.S.
        <div class="img" style="text-align: center;">
          <br>
-         <img src="../images/blogs/newZealandTwo.jpg" alt="" id="anyImage" style="border-style: solid; border-width: 1px;">
+         <img data-aos="fade-left" src="../images/blogs/newZealandTwo.jpg" alt="" id="anyImage" style="border-style: solid; border-width: 1px;">
           <br><span style="font-size: 13px;"><i>Caption: This is a chart of active COVID-19 cases in New Zealand by June.
           <br><a href="https://www.statista.com/chart/21933/new-zealand-covid-cases/" target="blank">(Johns Hopkins University)</a></i></span>
        </div>
        <br>In the end, Prime Minister Jacinda Ardern showed us what a response to the pandemic should look like, reflecting New Zealand’s innovation as a country. Her efforts proved to be effective in the rate of testing and allowed more citizens to be more cautious if they had contracted the virus. Even in her speeches, she repeatedly referred to her team as a “team of 5 million”, thus uniting the New Zealand people under a common goal: to stop the spread of COVID-19. Individuals should learn that although New Zealand’s response may not work in other countries with larger populations, a quick and early effort is what every country needs.
        <br><br>
-
-
-
   </main>
 </body>
 <script src="../js/main.js"></script>
+
+<!--AOS library scripts-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
