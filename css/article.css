@@ -1,0 +1,64 @@
+/*Import Poppins font for the main heading*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*
+.blogBox {
+   text-align: center;
+  border-style: solid;
+  border-color: black;
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+}
+*/
+#articleContainer {
+  width: 100%;
+  /* max-width: 80rem;
+  max-width: 90%; */
+  padding: 0 1.5rem;
+  margin: 0 auto;
+  /* background-color: #f7f2f9; */
+  padding-left: 35px;
+  padding-right: 30px;
+  margin-top: -10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  padding-top: 1rem;
+}
+
+.sub-heading {
+  font-family: "Poppins", sans-serif;
+}
+
+#anyImage,
+#whoImage,
+#swineFlu {
+  width: 100%;
+  height: 100%;
+}
+#dexamethasoneImg {
+  width: 100%;
+}
+#graphOne {
+  width: 80%;
+}
+
+a {
+  color: #3429b3;
+  text-decoration: underline;
+}
