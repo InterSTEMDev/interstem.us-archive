@@ -385,26 +385,37 @@ body {
   transition: transform .5s;
 
 }
+.writersBio {
+  flex-direction: row;
+}
 
 
 .cta a:hover::before {
   transform: scaleX(1);
 }
-
+.writersBio {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: true; 
+  }
 
 
 @media screen and (min-width: 800px) {
   #centeredBlog {
     width: 49%;
   }
+
 }
 
 @media screen and (min-width: 1300px) {
-
+  .writersBio {
+    flex-direction: row;
+  }
 
 
   .card {
-    flex-direction: row;
+    flex-direction: column;
+
     height: 29rem;
   }
 
