@@ -46,7 +46,6 @@ body {
 }
 
 
-
 #anyImage,
 #whoImage,
 #swineFlu {
@@ -63,4 +62,26 @@ body {
 a {
   color: #3429b3;
   text-decoration: underline;
+}
+
+@media screen and (min-width: 800px) {
+  #profile {
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 50px;
+  }
+
+
+}
+@media screen and (min-width: 2000px) {
+  #profile{
+    float: center;
+    padding-right: 30px;
+    padding-bottom: 35px;
+  }
+  #profileContainer {
+    padding-bottom: 40px;
+
+  }
+
 }
