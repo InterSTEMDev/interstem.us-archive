@@ -96,8 +96,39 @@ body {
   z-index: 1;
   overflow: hidden;
 }
-
-
+.background-image-petsCover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../images/august2020Blogs/petsCover.png') center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  transition: transform 5s;
+}
+.background-image-blueLightCover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../images/august2020Blogs/blueLightCover.jpg') center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  transition: transform 5s;
+}
+.background-image-scientificMythCover{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../images/august2020Blogs/scientificMythCover.JPG') center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  transition: transform 5s;
+}
 .background-image-spacexCover {
   width: 100%;
   height: 100%;
