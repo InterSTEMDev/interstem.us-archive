@@ -23,6 +23,12 @@ body {
   color: #242582;
 }
 
+@media only screen and (max-width: 600px) {
+	.topHeader {
+		font-size: 15vw;
+	}
+}
+
 .description {
 	position: relative;
 	margin: 2rem -9999rem;

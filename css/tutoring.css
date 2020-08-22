@@ -15,12 +15,18 @@ body {
   margin: 0 auto;
 }
 
-.topHeader{
+.topHeader {
   font-family: 'Montserrat',sans-serif ;
   font-style: normal;
   font-size: 6em;
   text-align: center;
   color: #242582;
+}
+
+@media only screen and (max-width: 600px) {
+	.topHeader {
+		font-size: 15vw;
+	}
 }
 
 a:hover {
