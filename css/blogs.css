@@ -63,6 +63,12 @@ body {
   color: #553D67;
 }
 
+@media only screen and (max-width: 600px) {
+  .topHeader {
+    font-size: 15vw !important;
+  }
+}
+
 .blogsContainer {
   width: 100%;
   max-width: 165rem;

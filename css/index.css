@@ -330,7 +330,7 @@ img-fluid {
 }
 @media only screen and (max-width: 410px) {
   .missionStatementClass {
-    margin-bottom: 4rem; /* Weird issue on mobile, quick fix but probably not the best */
+    margin-bottom: 8rem; /* Weird issue on mobile, quick fix but probably not the best */
   }
 }
 .missionStatementClassTwo {
