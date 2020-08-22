@@ -64,24 +64,22 @@ body{
 }
 .gallery{
   overflow-x: scroll;
+  overflow-y: hidden !important;
+  white-space: nowrap;
   height: 300px;
   width: 100%;
-  white-space: nowrap;
-}
-.gallery::-webkit-scrollbar {
-  display: none;
 }
 .gallery-slot{
   position: relative;
-  display:inline;
+  display: inline;
   margin:-2.25px;
   padding: 0;
 }
 .gallery-img{
-  display: inline;
   height: 300px;
   width: auto;
   margin: 0;
+  display: inline;
 }
 .gallery-text{
   position: absolute;

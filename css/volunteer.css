@@ -23,6 +23,21 @@ body {
   color: #242582;
 }
 
+@media only screen and (max-width: 600px) {
+	.topHeader {
+		font-size: 15vw;
+	}
+	.tabContainer {
+		height: 80vh !important;
+	}
+	.tabContent {
+		height: 80vh !important;
+	}
+	iframe {
+		height: inherit;
+	}
+}
+
 .description {
 	position: relative;
 	margin: 2rem -9999rem;
@@ -34,9 +49,9 @@ body {
 }
 
 .tabContainer {
-	margin: 5% auto 0;
-	height: 100%;
+	margin: 5% auto;
 	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+	height: 70vw;
 }
 
 .tabLink {
@@ -77,9 +92,10 @@ body {
 	.tabLink > i {
 		text-decoration: none;
 		display: block;
+		margin-bottom: 2rem;
 	}
 	.tabLink {
-		height: 4rem;
+		height: 5rem;
 	}
 }
 
@@ -102,4 +118,5 @@ body {
 .tabContent {
   margin: 0 auto;
   display: none;
+  height: 70vw;
 }

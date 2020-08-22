@@ -326,6 +326,12 @@ img-fluid {
   background-color: #f7f2f9;
   /* border-bottom: 2px dashed black; */
   height: 610px;
+  display: block;
+}
+@media only screen and (max-width: 410px) {
+  .missionStatementClass {
+    margin-bottom: 8rem; /* Weird issue on mobile, quick fix but probably not the best */
+  }
 }
 .missionStatementClassTwo {
   background-color: #E3E4F3;
