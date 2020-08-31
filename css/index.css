@@ -28,6 +28,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.6rem;
   color: var(--dark-color);
+   overflow-x: hidden;
 }
 
 a {
@@ -159,14 +160,15 @@ nav-item:not(:last-child) {
   margin-bottom: .5rem;
 }
 
-.nav-link {
+.nav-link{
   display: block;
   color: #fff;
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 1rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Hero section styles*/
@@ -690,6 +692,13 @@ img-fluid {
     height: auto;
     flex-direction: column;
   }
+  .title {
+    font-size: 6rem;
+  }
+  .subtitle {
+    font-size: 2rem;
+  }
+
 
 }
 

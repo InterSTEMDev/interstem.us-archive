@@ -6,28 +6,18 @@ https://templatemo.com/tm-552-video-catalog
 
 */
 
+
 html { scroll-behavior: smooth; overflow-x: hidden; }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     line-height: 2em;
     overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
 }
-
-a {
-    transition: all 0.3s ease;
-    color: #666;
-}
-
-a:hover {
-    color: #29BBCC;
-    text-decoration: none;
-}
-
-h2, p { color: #666666; }
 
 .tm-site-header {
     position: absolute;
@@ -268,28 +258,7 @@ h2, p { color: #666666; }
     border-bottom: 3px solid transparent;
 }
 
-.tm-category-link.active,
-.tm-category-link:hover {
-    border-bottom: 3px solid #3399CC;
-    color: #3399CC;
-}
 
-.tm-paging-link {
-    background-color: #F4F4F4;
-    margin-right: 12px;
-    font-size: 1.5rem;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.nav-item.active > .tm-paging-link,
-.nav-item:hover > .tm-paging-link {
-    background-color: #CCC;
-    color: #666666;
-}
 
 .tm-subscribe-form {
     display: flex;
@@ -350,86 +319,7 @@ h2, p { color: #666666; }
     background-color: #666;
 }
 
-#tm-fixed-header-bg { height: 450px; }
-.tm-fixed-header-1 { background-image: url(../img/video-detail-1.jpg); }
-.tm-fixed-header-2 { background-image: url(../img/about-1.jpg); }
-.tm-fixed-header-3 { background-image: url(../img/contact-1.jpg); }
 
-video {
-  width: 100%;
-  height: auto;
-}
-
-.fa-facebook { color: #3b5998; }
-.fa-twitter { color: #00acee; }
-.fa-pinterest { color: #c8232c; }
-.tm-liked-icon { display: none; }
-.tm-not-liked-icon { display: inline-block; }
-.tm-liked-icon, .tm-not-liked-icon { margin-top: 3px; }
-.tm-liked .tm-liked-icon { display: inline-block; }
-.tm-liked .tm-not-liked-icon { display: none; }
-.tm-welcome-text-2 { max-width: 575px; }
-.tm-share-button:hover { background-color: #e9ecef; }
-
-/*About*/
-.tm-about-text-container { max-width: 920px; }
-
-.parallax-window {
-    min-height: 270px;
-    background: transparent;
-}
-
-.parallax-window-2 {
-    min-height: 360px;
-}
-
-.tm-about-icon {
-    color: #999;
-}
-
-/* Contact */
-.mapouter{
-    position:relative;
-    text-align:right;
-    height:540px;
-    width:100%;
-}
-
-.gmap_canvas {
-    overflow:hidden;
-    background:none!important;
-    height:540px;
-    width:100%;
-}
-
-.form-control {
-    font-size: 1.2rem;
-    padding: 21px 25px;
-}
-
-.form-group {
-    margin-bottom: 35px;
-}
-
-#contact-select {
-    height: 60px;
-    border-radius: 0;
-}
-
-#contact-select:not([multiple]) {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  background-position: right 15px center;
-  background-repeat: no-repeat;
-  background-image: url(../img/select-arrow.png);
-  padding: 14px 20px;
-  padding-right: 20px;
-  color: #666;
-}
-.tm-testimonial-text {
-    max-width: 420px;
-    font-style: italic;
-}
 
 @media (min-width: 992px) {
     #tm-main-nav .nav-item { margin: 20px 40px; }
