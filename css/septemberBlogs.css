@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans:400,800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  #f9f2f
+}
+
+:root {
+  --gradient-color: linear-gradient(to right bottom, rgba(255, 119, 48, 0.8), rgba(255, 185, 0, 0.8));
+}
+
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+hr {
+  border-top: solid 1px;
+  /* Set the hr color */
+  color: black; /* old IE */
+  background-color: #f7f2f9; /* Modern Browsers */
+  margin: 0 auto;
+  max-width: 160rem !important;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+  color: #333;
+  background-color: #eee;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.5rem;
+  background-color: #f9f2f2;
+}
+@keyframes navBtn-hover{
+  100% {background-color: black; color: white}
+}
+.archives {
+  text-align: center;
+}
+
+.topHeader{
+  color: #553D67;
+}
+.blogsContainer {
+  width: 100%;
+  max-width: 165rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+.sampleContainer {
+  width: 100%;
+  max-width: 800rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-gap: 2.5rem; /* */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 2px .8rem 1rem rgba(0,0,0,0.5);
+
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 4px .8rem 4rem rgba(0,0,0,0.5);
+}
+
+
+#centeredBlog {
+  width: 100%;
+  margin: auto;
+}
+
+
+.image-data {
+  height: 25rem;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.background-image-insomniaCover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../images/september2020Blogs/insomniaCover.png') center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  transition: transform 5s;
+}
+.background-image-virusesCover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../images/september2020Blogs/virusesCover.jpg') center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  transition: transform 5s;
+}
+.background-image-mysteriesCover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../images/september2020Blogs/mysteriesCover.png') center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  transition: transform 5s;
+}
+.background-image-wildFireCover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../images/september2020Blogs/wildFireCover.png') center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  transition: transform 5s;
+}
+.background-image-pseudoCover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('../images/september2020Blogs/pseudoCover.png') center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  transition: transform 5s;
+}
+
+.card:hover .background-image {
+  transform: scale(1.5);
+}
+
+.publication-details {
+  width: 100%;
+  height: 100%;
+
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+.publication-details i{
+  margin-right: 1rem;
+}
+
+.author {
+  display: inline-block;
+  margin-bottom: .5rem;
+  transition: all .5s ;
+}
+
+.author:hover {
+  color: rgba(255,255,255,0.75);
+}
+
+.date {
+  display: block;
+}
+
+.post-data {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  position: relative;
+}
+
+.title {
+  font-size: 3rem;
+  line-height: 1;
+  text-transform: none;
+  font-weight: lighter;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #a2a2a2;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.description {
+  position: relative;
+}
+
+.description::first-letter{
+  margin-left: 1rem;
+}
+
+.description::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: .5rem;
+  height: 2.5rem;
+  background: var(--gradient-color);
+  border-radius: 2rem;
+}
+
+.cta{
+  text-align: right;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.cta a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  color: transparent;
+  position: relative;
+}
+
+.cta a::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+  width: 100%;
+  height: 3px;
+  background: var(--gradient-color);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .5s;
+
+}
+.writersBio {
+  flex-direction: row;
+}
+
+
+.cta a:hover::before {
+  transform: scaleX(1);
+}
+.writersBio {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: true;
+  }
+
+
+
+
+@media screen and (min-width: 800px) {
+  #centeredBlog {
+    width: 49%;
+  }
+
+
+}
+
+@media screen and (min-width: 1300px) {
+
+  .writersBio {
+    flex-direction: row;
+  }
+
+
+  .card {
+    flex-direction: column;
+flex-direction: row;
+    height: 29rem;
+  }
+
+
+  .image-data {
+    flex-basis: 40%;
+    height: unset;
+  }
+
+  .publication-details {
+    background: var(--gradient-color);
+    transform: translateX(-100%);
+    transition: transform .5s;
+  }
+
+
+  .card:hover .publication-details {
+    transform: translateX(0);
+
+
+  }
+
+  .author {
+    transform: translateY(-3rem);
+    opacity: 0;
+    transition-delay: .3s;
+  }
+  .date {
+    transform: translateY(3rem);
+    opacity: 0;
+    transition: all .5s .3s;
+  }
+
+  .card:hover .author,
+  .card:hover .date {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .post-data {
+    flex-basis: 60%;
+  }
+
+  .post-data::before {
+    content: '';
+    width: 3.5rem;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: -1.8rem;
+    z-index: 10;
+    transform: skewX(-5.5deg);
+  }
+}
