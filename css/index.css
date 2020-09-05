@@ -222,7 +222,12 @@ img-fluid {
   line-height: 1;
   text-shadow: 1px 1px 1rem rgba(0,0,0,0.5);
   margin-bottom: 2.5rem;
+}
 
+@media only screen and (max-width: 600px) {
+  .main-heading {
+    font-size: 15vw !important;
+  }
 }
 
 .title {
@@ -370,6 +375,7 @@ img-fluid {
 .programs {
   background-color: #f7f2f9;
 }
+
 .partners{
   background-color: #E3E4F3;
 
@@ -381,21 +387,22 @@ img-fluid {
   border: 5px solid transparent;
   position: relative;
   z-index: 0;
+  background-color: rgba(61, 60, 115, 0.15);
 }
+
 .featured-programs:hover {
   border: 5px solid rgba(15, 6, 99, 0.4);
 }
 
-.featured-programs::before {
+/*.featured-programs::before {
   content:"";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background-color:  rgba(61, 60, 115, 0.15);
+  height: 100%;  
   z-index: -1;
-}
+}*/
 
 .featured-programsTwo {
   height: 35rem;
@@ -403,8 +410,9 @@ img-fluid {
   padding: 1rem;
   border: 5px solid transparent;
   position: relative;
-  z-index: 0;
+  z-index: 0;  
 }
+
 .featured-programsTwo:hover {
   border: 5px solid rgba(138, 62, 113, 0.4);
 }
@@ -443,6 +451,11 @@ img-fluid {
   z-index: -1;
 }
 
+@media only screen and (max-width: 600px) {
+  .grid-item {
+    margin-bottom: 5rem;
+  }
+}
 
 
 .partnersBox {
@@ -775,3 +788,11 @@ img-fluid {
 
   }
 }
+
+@media only screen and (max-width: 600px) {
+  #aboutUsImageTwo {
+    display: none;
+  }
+}
+
+
